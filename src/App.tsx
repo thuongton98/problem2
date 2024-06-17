@@ -25,6 +25,7 @@ const ContainedStyle = styled.div`
     justify-content: space-between;
     align-items: center;
     .switch {
+        margin: 0 50px;
         cursor: pointer;
         background-color: rgb(26 86 219/1);
         font-weight: 500;
@@ -49,10 +50,11 @@ const ContainedStyle = styled.div`
         }
     }
     .item {
+      width: 100%;
       display: flex;
       align-items: center;
       input[type=number] {
-        width: 100%;
+        width: 70%;
         margin-right: 10px;
         color: rgb(17 24 39/1);
         font-size: .875rem;
